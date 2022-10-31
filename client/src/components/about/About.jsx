@@ -1,6 +1,7 @@
 import CarouselImg from './Carousel';
 import style from './styles/about.module.css'
 import Values from './Values';
+import Client from './Client';
 // ------ Assets -----
 import asset1 from '../../assets/images/asset1.jpg'
 import asset2 from '../../assets/images/asset2.jpg'
@@ -41,6 +42,7 @@ const About = () => {
                 </div>
             </div>
             <Values/>
+            <Client/>
         </div>
     )
 }

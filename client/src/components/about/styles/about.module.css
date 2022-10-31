@@ -4,9 +4,6 @@
     align-items: center;
     width: 100%;
     margin-top: 1rem;
-
-    /* z-index: -1; */
-    /* border: 1px solid red; */
 }
 
 .contAboutOne{
@@ -20,7 +17,6 @@
 .aboutTitle{
     font-family: Roboto;
     font-size: 3rem;
-    /* text-decoration: underline yellow; */
 }
 
 .textAbout{
@@ -87,7 +83,7 @@
     }
 
     .contTwoAbout{
-        height: 35vh;
+        height: 45vh;
     }
 
     .contSections{
