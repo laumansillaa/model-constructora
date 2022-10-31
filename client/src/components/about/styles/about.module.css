@@ -1,0 +1,96 @@
+.contOneAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+
+    /* z-index: -1; */
+    /* border: 1px solid red; */
+}
+
+.contAboutOne{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutTitle{
+    font-family: Roboto;
+    font-size: 3rem;
+    /* text-decoration: underline yellow; */
+}
+
+.textAbout{
+    font-size: 1.1rem;
+}
+
+.contInfoAbout{
+    width: 80%;
+}
+
+.contAboutCarousel{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.contTwoAbout{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    background-color: #FFD131;
+    margin-top: 1rem;
+}
+
+.contSections{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.sectionTitle{
+    font-size: 3.6rem;
+}
+
+.sectionLabel{
+    font-family: Poppins;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+@media (max-width: 480px){
+    .contAbout{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contOneAbout{
+        flex-direction: column;
+    }
+
+    .contAboutOne{
+        width: 100%;
+    }
+
+    .contInfoAbout{
+        width: 90%;
+    }
+
+    .textAbout{
+        font-size: 1.5rem;
+    }
+
+    .contTwoAbout{
+        height: 35vh;
+    }
+
+    .contSections{
+        flex-direction: column;
+    }
+}

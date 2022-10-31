@@ -1,0 +1,33 @@
+.contHome{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../assets/png/picHome.png');
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.homeTitle{
+    font-family: Roboto;
+    font-size: 4rem;
+}
+
+@media (max-width: 480px){
+    .contHome{
+        flex-direction: column;
+    }
+
+    .contTitleHome{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeTitle{
+        font-size: 3.4rem;
+    }
+}

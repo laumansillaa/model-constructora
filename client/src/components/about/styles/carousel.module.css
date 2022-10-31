@@ -1,0 +1,27 @@
+.carouselImg{
+    height: 450px;
+}
+
+.img{
+    height: 450px;
+    
+}
+
+
+
+@media (max-width: 480px){
+    .img{
+        height: 310px;
+    }
+
+    .carouselImg{
+        height: auto;
+        /* width: 400px; */
+    }
+}
+
+@media (max-width: 360px) {
+    .carouselImg{
+        width: 290px;
+    }
+}
