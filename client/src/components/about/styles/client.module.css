@@ -1,3 +1,28 @@
 .contClient{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.contImg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
     margin-top: 2rem;
+}
+
+.imgClient{
+    height: 6rem;
+}
+
+@media (max-width: 480px){
+    .contImg{
+        flex-direction: column;
+        /* flex-wrap: wrap;
+        width: 100%; */
+    }
 }

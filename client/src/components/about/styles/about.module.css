@@ -1,3 +1,10 @@
+.contAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contOneAbout{
     display: flex;
     justify-content: center;
