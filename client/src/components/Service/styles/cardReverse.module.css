@@ -1,0 +1,29 @@
+.contCard{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    background-color: #f3f3f7;
+    
+}
+
+.contText{
+    width: 80%;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImg{
+    height: 25rem;
+}
+
+.contDescription{
+    width: 80%;
+}
+
+.description{
+    font-size: 1.1rem;
+}
