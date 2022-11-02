@@ -8,17 +8,17 @@ const Navv = () => {
 
     return (
         <Navbar  variant="dark" expand="lg" className={style.contNav}>
-          <Container >
-            <Navbar.Brand href="#home">Constructora</Navbar.Brand>
+          <Container className={style.container} >
+            <Navbar.Brand as={Link} to='/'>Constructora</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="responsive-navbar-nav" className={style.cont}>
               <Nav 
                   style={{ maxHeight: '500px' }}
                   navbarScroll >
-                  <Nav.Link href="#home">INICIO</Nav.Link>
+                  <Nav.Link as={Link} to='/'>INICIO</Nav.Link>
                   <Nav.Link as={Link} to="/service">SERVICIOS</Nav.Link>
                   <Nav.Link href="#pricing">PROYECTOS</Nav.Link>
-                  <Nav.Link href="#pricing">CONTACTO</Nav.Link>
+                  <Nav.Link as={Link} to='/contact'>CONTACTO</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

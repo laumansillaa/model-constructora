@@ -1,0 +1,103 @@
+.contContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contTitle{
+    height: 22vh;
+    width: 60%;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contMap{
+    margin-top: 3rem
+}
+
+.contData{
+    display: flex;
+    justify-content:space-around;
+    width: 80%;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+
+}
+
+.contDataOne{
+    width: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.contTxt{
+    width: 85%;
+    text-align: start;
+}
+
+.contInputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input{
+    background-color: #f3f3f7;
+    margin-bottom: .5rem;
+    padding-left: .5rem;
+    border: 0;
+    color: #000;
+}
+
+.contDataTwo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.contDataSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    width: 80%;
+    margin-bottom: .5rem;
+}
+
+p{
+    margin-bottom: .3rem;
+}
+
+@media (max-width: 480px){
+
+    .contTitle{
+        height: 20vh;
+    }
+    .contContact, .contData{
+        flex-direction: column;
+    }
+
+    .contData{
+        width: 90%;
+    }
+
+    .contDataOne, .contDataTwo{
+        width: 100%;
+    }
+
+    .contInputs{
+        margin-top: .5rem;
+    }
+
+    .contDataTwo{
+        margin-top: 1rem;
+    }
+}
