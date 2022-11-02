@@ -1,14 +1,19 @@
 .contCard{
     margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: row-reverse;
     width: 90%;
     background-color: #f3f3f7;
-    
+    /* border-radius: 10px; */
 }
 
+/* .contCard:hover{
+    box-shadow: 2px 2px 8px 2px #000;
+} */
+
 .contText{
-    width: 80%;
+    width: 60%;
     padding: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -21,9 +26,44 @@
 }
 
 .contDescription{
-    width: 80%;
+    width: 90%;
 }
 
 .description{
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.zoom{
+    overflow: hidden;
+    /* width: 50%; */
+}
+
+.zoom img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover img{
+    transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+    .contCard{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contText{
+        width: 90%;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .contDescription{
+        width: 90%;
+    }
+
+    .cardImg{
+        height: 20rem;
+    }
 }

@@ -10,7 +10,7 @@ const Card = ({title, description, imagen}) => {
                     <h6 className={style.description}>{description}</h6>
                 </div>
             </div>
-            <div>
+            <div className={style.zoom}>
                 <img src={imagen} alt={`${imagen}`} className={style.cardImg}/>
             </div>
         </div>

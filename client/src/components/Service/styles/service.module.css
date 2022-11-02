@@ -26,3 +26,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width: 480px){
+    .contTitle{
+        height: 15vh;
+    }
+}
