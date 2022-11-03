@@ -10,6 +10,9 @@ const Home = () => {
                 <div className={style.contTitleHome}>
                     <h1 className={style.homeTitle}>INNOVAMOS LA CONSTRUCCION</h1>
                 </div>
+                <div className={style.contBtnHome}>
+                    <button className={style.btnHome}>Contacto</button>
+                </div>
             </div>
             <About/>
         </>

@@ -1,7 +1,11 @@
 import MapView from './mapView'
-import style from './styles/contact.module.css'
+import style from './styles/contact.module.css';
+
+
 
 const Contact = () => {
+
+
 
     return (
         <div className={style.contContact}>
@@ -22,6 +26,7 @@ const Contact = () => {
                         <input placeholder='Email' className={style.input}/>
                         <input placeholder='Asunto' className={style.input}/>
                         <textarea placeholder='Mensaje' className={style.input} rows={5} style={{resize: 'none'}}/>
+                        <button className={style.btnContact}>Enviar</button>
                     </div>
                 </div>
                 <div className={style.contDataTwo}>

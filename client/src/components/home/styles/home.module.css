@@ -6,13 +6,37 @@
     background-attachment: fixed;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     color: #fff;
 }
 
+.contTitleHome{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
 .homeTitle{
-    font-family: Roboto;
+    font-family: Oswald;
+    text-shadow: 2px 2px 5px #333;
     font-size: 4rem;
+}
+
+.contBtnHome{
+    margin-top: 4rem;
+}
+
+.btnHome{
+    background: #0052c9;
+    font-size: 1.2rem;
+    padding: .3rem .6rem .3rem .6rem;
+    border-radius: 10px;
+    border: 0;
+    font-family: Roboto;
+}
+
+.btnHome:hover{
+    box-shadow: 1px 1px 3px 1px #000;
 }
 
 @media (max-width: 480px){

@@ -76,6 +76,17 @@ p{
     margin-bottom: .3rem;
 }
 
+.btnContact{
+    border: 0;
+    /* height: 5vh; */
+    font-size: 1.2rem;
+    background: #0052c9;
+}
+
+.btnContact:hover{
+    box-shadow: 1px 1px 3px 1px black;
+}
+
 @media (max-width: 480px){
 
     .contTitle{
@@ -100,4 +111,8 @@ p{
     .contDataTwo{
         margin-top: 1rem;
     }
+
+    /* .contMap{
+        border: 1px solid red;
+    } */
 }
