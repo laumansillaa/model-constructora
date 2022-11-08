@@ -18,17 +18,13 @@ const Navv = () => {
                   navbarScroll >
                   <Nav.Link as={Link} to='/' >INICIO</Nav.Link>
                   <Nav.Link as={Link} to="/service">SERVICIOS</Nav.Link>
-                  <Nav.Link href="#pricing">PROYECTOS</Nav.Link>
-                  {/* <NavDropdown title="PROYECTOS" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Ver todos</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
+                  <Nav.Link as={Link} to='/project'>PROYECTOS</Nav.Link>
+                  {/* <NavDropdown title="PROYECTOS" id="collasible-nav-dropdown" className={style.contSm}>
+                    <NavDropdown.Item href="#action/3.1" className={style.contSubMenu}>Ver todos</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2" className={style.contSubMenu}>
                       Solicitar entrevista
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.3">Enviar documentos</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">
-                      Otra accion
-                    </NavDropdown.Item>
                   </NavDropdown> */}
                   <Nav.Link as={Link} to='/contact'>CONTACTO</Nav.Link>
               </Nav>

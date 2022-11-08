@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .contTitle{
@@ -81,6 +82,7 @@ p{
     /* height: 5vh; */
     font-size: 1.2rem;
     background: #0052c9;
+    border-radius: 5px;
 }
 
 .btnContact:hover{

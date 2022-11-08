@@ -40,6 +40,16 @@
     height: 12rem;
 }
 
+p{
+    font-family: Poppins;
+    font-size: .9rem;
+}
+
+h5{
+    font-family: Poppins;
+    font-size: 1.1rem;
+}
+
 @media (max-width: 480px){
     .contValuesSection{
         flex-direction: column;

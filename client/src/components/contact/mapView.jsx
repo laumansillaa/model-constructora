@@ -7,7 +7,7 @@ import './styles/mapView.css'
 
 const MapView = () => {
 
-    const position = [41.5287017, 2.1061721]
+    const position = [-34.6037389, -58.3815704]
 
     return (
         <MapContainer

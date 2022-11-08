@@ -6,6 +6,7 @@ import Home from './components/home/home'
 import Navv from './components/nav/Nav'
 import Service from './components/Service/Service'
 import Contact from './components/contact/Contact'
+import Proyects from './components/proyects/Proyects'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home/>}/> 
         <Route exact path='/service' element={<Service/>}/>
-        <Route exaxt path='/contact' element={<Contact/>}/>
+        <Route exact path='/contact' element={<Contact/>}/>
+        <Route exact path='/project' element={<Proyects/>}/>
       </Routes>
       <Footer/>
     </div>
